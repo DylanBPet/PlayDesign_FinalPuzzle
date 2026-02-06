@@ -6,8 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/ChoiceSelectionScreen.unity
+    path: Assets/Scenes/MainScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 0
+    path: Assets/Scenes/Patient_Alexis.unity
+    guid: 0c43c5795de34344d856d9c8152be91b
+  - enabled: 1
+    path: Assets/Scenes/PatientRoom.unity
+    guid: c446918ff1362a74097901801e8153d5
+  - enabled: 0
+    path: Assets/Scenes/Patient_3.unity
+    guid: 5851aba69c1065c4ebdde237b19ed81b
+  - enabled: 0
+    path: Assets/Scenes/Patient_4.unity
+    guid: 88636df1c78f7b7489824bfdef22e1ad
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
