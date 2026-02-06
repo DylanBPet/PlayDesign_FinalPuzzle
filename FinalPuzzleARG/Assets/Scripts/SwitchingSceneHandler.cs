@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class TestScript : MonoBehaviour
+public class SwitchingSceneHandler : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -11,6 +11,6 @@ public class TestScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //hello world
+        
     }
 }
