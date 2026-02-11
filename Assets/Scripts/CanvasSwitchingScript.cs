@@ -9,10 +9,15 @@ public class CanvasSwitchingScript : MonoBehaviour
     //the canvas for the patient room
     public GameObject patientRoom;
 
+    //canvas for when player finishes puzzle
+    public GameObject endScreen;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        patientRoom.SetActive(false);
+        choiceSelection.SetActive(false);
+        endScreen.SetActive(false);
     }
 
 

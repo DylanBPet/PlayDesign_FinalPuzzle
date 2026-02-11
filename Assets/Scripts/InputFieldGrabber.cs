@@ -16,12 +16,9 @@ public class InputFieldGrabber : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        switchingCanvas.patientRoom.SetActive(false);
-        switchingCanvas.choiceSelection.SetActive(false);
         passwordScene.SetActive(true);
         passwordFeedback.SetActive(false);
         goToChoiceSelectionButton.SetActive(false);
-
         feedback = passwordFeedback.GetComponent<TextMeshProUGUI>();
         
     }
