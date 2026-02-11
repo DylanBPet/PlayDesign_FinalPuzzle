@@ -1,9 +1,8 @@
-using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class SwitchingSceneHandler : MonoBehaviour
+public class CanvasSwitchingScript : MonoBehaviour
 {
+
     //the canvas for choice selection
     public GameObject choiceSelection;
 
@@ -13,15 +12,16 @@ public class SwitchingSceneHandler : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        patientRoom.SetActive(false);
-        choiceSelection.SetActive(true);
+
     }
+
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
+
 
     public void ToChoiceSelection()
     {
@@ -34,5 +34,4 @@ public class SwitchingSceneHandler : MonoBehaviour
         choiceSelection.SetActive(false);
         patientRoom.SetActive(true);
     }
-
 }
