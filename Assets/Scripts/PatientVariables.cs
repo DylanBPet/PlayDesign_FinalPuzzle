@@ -41,7 +41,6 @@ public class PatientVariables : MonoBehaviour
     {
         currentPatient = 1;
         patient.sprite = women1;
-        //here ^ for each patient
         speechBubble.text = ("I’ve been bleeding out way more than usual. My flow isn’t usually this heavy. Rate my pain? Probably 5/10");
         symptom1.text = ("-Heavier Flow");
         symptom2.text =("-Pain 5/10");
